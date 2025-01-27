@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+ margin-top: -21px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+background-color: rgb(74, 122, 255);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 50px;
+    
+}
+    
+header{
+    min-width: 300px;
+    max-width: 15000px;
+    background-image: linear-gradient( to top, rgb(14, 14, 138), blue);
+    height: 230px;
+    margin-top: -35px;
+}
+
+
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+a.header{
+
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    margin: 4px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bolder;
+    }
+
+a.header:hover{
+    
+    color: rgb(13, 4, 95);
+    background-color: rgb(67, 67, 247);
+    border-radius: 4px;
+    font-weight: bold;
+    transition-duration: 0.7s;
+}
+
+div{
+    min-width: 100px;
+    max-width: 1000px;
+    background-color: white;
+    width: 1000px;
+    height: 1800px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.301);
+}
+
+
+
+h2{
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 20px ;
+    font-style: none;
+    color: rgb(12, 5, 105);
+}
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#sub{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(0, 56, 121, 0.644);
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h3{
+    
+    color: rgb(12, 5, 105);
+    background-color: lightblue;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-style: italic;
+}
+
+h4{
+    background-color: rgb(4, 175, 255);
+    color: white;
+    width: 500px;
+    height: 25px;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+div p{
+
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+div ul{
+    columns: 2;
+    
+}
+
+
+
+aside{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: rgb(168, 229, 250);
+    width: 530px;
+    height: 250px;
+    margin: auto;
+    padding-top: 6px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 81, 255, 0.301);
+}
+
+div iframe{
+    min-width: 100px;
+    max-width: 1000px;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+
+}
+
+
