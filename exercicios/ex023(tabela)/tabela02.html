@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela2</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        table{
+            width: 500px;
+            height: 3100px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead{
+            background-color: rgb(3, 196, 3);
+            color: black;
+        }
+
+        td,th{
+            border: 1px solid black;
+            text-align: center;
+            
+        }
+        thead>tr>th{
+            position: sticky;
+            top:-1px;
+            background-color:rgb(3, 196, 3) ;
+        }
+        
+        tfoot{
+            background-color: cornflowerblue;
+            
+        }
+
+        tfoot > td{
+            text-align: right;
+        }
+
+        caption{
+            background-color: rgb(160, 160, 160);
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.3em;
+            padding: 5px;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: rgba(0, 81, 255, 0.178);
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Jogadores com Mais Gols</caption>
+        <thead>
+            <tr>
+                <th scope="col">Jogador</th>
+                <th scope="col">Gols</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cristiano Ronaldo</td>
+                <td>900 Gols</td>
+            </tr>
+
+                <tr>
+                    <td>Messi</td>
+                    <td>830 Gols</td>
+    
+                </tr>
+                <tr>
+                    <td>Neymar</td>
+                    <td>436 Gols</td>
+                </tr>
+                <tr>
+                    <td>Suarez</td>
+                    <td>550 Gols</td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Gols</th>
+                <th>2.716</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum facere magni ipsa accusamus delectus impedit culpa dolore animi distinctio atque, dicta, architecto nam? Repudiandae iste illo placeat id quasi!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ex quia quidem dolor cum cupiditate at necessitatibus laudantium, officia deleniti aliquid obcaecati repudiandae voluptates modi illo nobis! Voluptate, numquam natus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus totam praesentium saepe fuga nostrum, cupiditate maiores architecto laboriosam amet voluptates vitae asperiores ipsam minus officia aliquid, exercitationem dolore. Quas, magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae provident esse expedita veniam amet consequatur fugit perferendis quo. Neque, iusto in accusamus voluptatibus deleniti at sit tenetur dolorem laboriosam totam.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus assumenda tempore beatae nihil tenetur et doloremque numquam voluptas neque deserunt nisi, ducimus error facere, molestias, molestiae vel non esse ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque deleniti tenetur labore repellendus nostrum officiis nisi! Esse maiores libero doloremque quasi dolor soluta, nulla tenetur, exercitationem, iure amet inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit magnam nisi sequi totam incidunt quos officia. Eos fugit magni commodi laborum explicabo sed nemo libero nulla doloremque! Aspernatur, deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam officia porro illo error tempora natus id delectus laborum eveniet, distinctio voluptate eos cumque nulla dolore animi in nemo autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium vel, deserunt, soluta non sapiente necessitatibus explicabo expedita aperiam consequatur earum, saepe laborum magni hic est dignissimos similique beatae illo quos!</p>
+    
+</body>
+</html>
