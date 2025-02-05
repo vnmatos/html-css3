@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <style>
+        body{
+            font-family: sans-serif;
+
+        }
+
+        table{
+            width: 600px;
+            border-collapse: separate;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        th{
+            background-color: darkgrey;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="1" rowspan="2"> Área</th>
+            <th colspan="1" rowspan="2">Disciplinas</th>
+            <th colspan="2">Notas</th>
+            <th rowspan="2">Média</th>
+        </tr>
+        <tr>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+        </tr>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" style="color: black; background-color: white;">Exatas</th>
+                <td>Matemática</td>
+                <td style="text-align: center;">89.8</td>
+                <td style="text-align: center;">71.5</td>
+                <td style="text-align: center;">80.75</td>
+            </tr>
+
+            <tr>
+                <td>Física</td>
+                <td style="text-align: center;">60.1</td>
+                <td style="text-align: center;">60.0</td>
+                <td style="text-align: center;">60.0</td>
+            </tr>
+             
+            <tr>
+                <td>Química</td>
+                <td style="text-align: center;">80.0</td>
+                <td style="text-align: center;">90.0</td>
+                <td style="text-align: center;">85.0</td>
+            </tr>
+            <tr>
+                <td >Biologia</td>
+                <td style="text-align: center;">55.5</td>
+                <td style="text-align: center;">60.0</td>
+                <td style="text-align: center;">57.5</td>
+            </tr>
+
+            <tr>
+                <th colspan="4">Média das exatas</th>
+                <th>70.8</th>
+            </tr>
+            <tr>
+                <th rowspan="2" style="color: black; background-color: white;">Humanas</th>
+                <td>História</td>
+                <td style="text-align: center;">70.2</td>
+                <td style="text-align: center;">73.1</td>
+                <td style="text-align: center;">71.65</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td style="text-align: center;">80.0</td>
+                <td style="text-align: center;">80.0</td>
+                <td style="text-align: center;">80.0</td>
+            </tr>
+            <tr>
+                <th colspan="4">Média das Humanas</th>
+                <th>75.8</th>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+</body>
+</html>

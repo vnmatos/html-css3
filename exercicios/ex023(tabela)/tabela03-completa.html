@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Filmes </title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        table{
+            width: 600px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th{
+            background-color: rgb(255, 6, 60);
+            color: white;
+        }
+        td{
+            background-color: rgba(0, 131, 245, 0.315);
+        }
+
+        caption{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes e Herois Preferidos no Brasil
+        </caption>
+        <thead>
+         <tr>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" style="background-color: pink;">Mulheres</th>
+                <td>Eliza</td>
+                <td>Barbie</td>
+                <td>Planeta dos Macacos</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>WandaVision</td>
+                <td>X-men</td>
+                <td>Loki</td>
+            </tr>
+            <tr>
+                <td>Livia</td>
+                <td>Homem-Aranha</td>
+                <td>Gente Grande</td>
+                <td>VOVOSONA</td>
+            </tr>
+            <tr>
+                <th rowspan="3" style="background-color: lightblue;">Homens</th>
+                <td>Matheus</td>
+                <td>Batman</td>
+                <td>Superman</td>
+                <td>Hulk</td>
+            </tr>
+            <tr>
+            <td>Arthur</td>
+            <td>IronMan</td>
+            <td>Thor</td>
+            <td>Capitao America</td>
+             </tr>
+             <tr>
+                <td>Pedro</td>
+                <td>Drax</td>
+                <td>Rocket</td>
+                <td>Thanos</td>
+             </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
